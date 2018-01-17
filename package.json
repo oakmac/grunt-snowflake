@@ -1,0 +1,39 @@
+{
+  "name": "grunt-snowflake",
+  "description": "Grunt plugin for Snowflake CSS.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/oakmac/grunt-snowflake",
+  "author": {
+    "name": "Chris Oakman",
+    "email": "chris@oakmac.com",
+    "url": "https://chrisoakman.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oakmac/grunt-snowflake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oakmac/grunt-snowflake/issues"
+  },
+  "licenses": [
+    {
+      "type": "ISC",
+      "url": "https://github.com/oakmac/grunt-snowflake/blob/master/LICENSE-ISC"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
